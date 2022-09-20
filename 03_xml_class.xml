@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session>
+    <!-- eg:1 -->
+    <watch>
+        <name>Rolex</name>
+        <price>$25</price>
+        <description>A BLUE DIAMOND PURE WATCH...</description>
+    </watch>
+
+    <!-- eg:2 -->
+    <flowers>
+        <name>SunFlower</name>
+        <price>$1</price>
+        <color>YELLOW IN COLOR...</color>
+    </flowers>
+
+    <!-- eg:3 -->
+    <!-- <!DOCTYPE Music_name [
+        <!ELEMENT Music_name (Title, Artist, Country, Year)>
+        <!ELEMENT Title (#PCDATA)>
+        <!ELEMENT Artist (#PCDATA)>
+        <!ELEMENT Country (#PCDATA)>
+        <!ELEMENT Year (#PCDATA)>
+        <!ELEMENT MS "Thatz Life">
+    ]> -->
+    <Music_name>
+        <Title>NFAK</Title>
+        <Artist>Nusrat Fateh Ali Khan</Artist>
+        <Country>Pakistan</Country>
+        <Year>1997</Year>
+    </Music_name>
+
+    <!-- eg:4 -->
+    <!-- this was a example of comment -->
+    <name nickname="John">
+        <First>john</First>
+        <!-- john is yet to pay the term fees -->
+        <last>wick</last>
+        <Semester>Final</Semester>
+    </name>
+
+    <!-- eg:5 -->
+    <name NickName="John">
+        <First>John</First>
+        <!-- john is yet to pay the term fees -->
+        <last>wick</last>
+        <?feesprocessor SELECT fees FROM STUDENTFEES?>
+        <Semester>Final</Semester>    
+    </name>
+
+    <!-- eg:6 -->
+    <Svg>
+        <desc>Shapes</desc>
+        <Para>But the formula was <![CDATA[if(&x1 + &x2)]]> wich resulted in 7.</Para>
+    </Svg>
+
+    <!-- eg:7 -->
+    <!-- <!DOCTYPE Music_Collection[
+        <!ENTITY R "Rok">
+        <!ENTITY S "Soft">
+        <!ENTITY RA "Rap">
+        <!ENTITY HH "Hiphop">
+        <!ENTITY F "Folk">
+    ]> -->
+    <Music_Collection>
+        <Rok></Rok>
+        <Soft></Soft>
+        <Rap></Rap>
+        <Hiphop></Hiphop>
+        <Folk></Folk>
+    </Music_Collection>
+
+</session>
