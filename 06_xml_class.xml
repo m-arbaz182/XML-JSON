@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type = "text/xsl" href = "06_xsl_class.xsl"?>
+<class>
+    <student>
+        <firstname>Muhammad Arbaz</firstname>
+        <lastname>Hussain</lastname>
+        <nickname>NO-ONE</nickname>
+    </student>
+    <student>
+        <firstname>NO-ONE</firstname>
+        <lastname>NO-ONE</lastname>
+        <nickname>NO-ONE</nickname>
+    </student>
+</class>

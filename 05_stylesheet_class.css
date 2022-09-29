@@ -1,0 +1,59 @@
+/* eg:1 */
+Name
+{
+    font-weight: bold;
+}
+Cast
+{
+    color: aqua;
+}
+
+/* eg:2 */
+Cars
+{
+    background-color:rgb(0%,32%,100%);
+    color:#ffffff; 
+    font-family: Arial, Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+Vehicle
+{
+    background-color: orange
+}
+Manufacturer 
+{
+    margin-left: 20px;
+    margin-right: 50px;
+    background-color: aqua;
+    border: thick dashed magenta;
+    padding: 2px;
+}
+Model
+{
+    border: thick solid olive;
+    padding: 2px 5px;
+}
+Color 
+{
+    border: thick groove aqua;
+    padding: 2px 5px 8px;
+}
+Price
+{
+    display: block;
+    position:absolute;
+    top:40;
+    left:20;
+    color:black;
+    border: thick inset gray;
+    padding: 2px 5px 8px 10px;
+    text-align: left;
+    text-indent: 20px;
+}
+Location 
+{
+    position:relative;
+    top:20;
+    left:20;
+}

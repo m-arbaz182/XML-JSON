@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="05_stylesheet_class.css" type="text/css"?>
+<session5>
+
+<!-- eg:1 -->
+<Library>
+    <Films>
+        <Flim>
+            <Name>Ghost Rider</Name>
+            <Sound>Yes</Sound>
+            <Year>2007</Year>
+            <Cast>Nicolas Cage and others</Cast>
+        </Flim>
+    </Films>
+</Library>
+
+<!-- eg:2 -->
+<Cars>
+    <Vehicle>
+        <Manufacturer>BMW</Manufacturer>
+        <Model>M3</Model>
+        <Color>Metalic Silver</Color>
+        <Price>40, 000</Price>
+        <Location>Liverpool</Location>
+    </Vehicle>
+</Cars>
+
+</session5>
